@@ -1,1 +1,1 @@
-Ссылка на сайт https://vikabelinskaya.github.io/zakrivayuschiy-teg-f/
+https://vikabelinskaya.github.io/zakrivayuschiy-teg-f
