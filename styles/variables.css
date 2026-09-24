@@ -1,1 +1,46 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-main: "Inter-Variable", sans-serif;
+  --font-accent: "PressStart2P", monospace;
+
+  --weight-save-dialog: 400;
+  --weight-card-text: 410;
+  --weight-card-title: 715;
+  --container-width: clamp(375px, 100%, 700px);
+
+  --text-stroke-color: #ffffff;
+  --accent-detail-color: rgba(0, 0, 0, 1);
+  --bg-color: #ffffff;
+  --btn-text-color: #ffffff;
+
+  --animation-fill-color: #ff0000; 
+  --contour-fill-color: rgba(0, 0, 0, 1);
+  --sparks-fill-color: #ff0000;
+
+  --bg-grid-horizontal: repeating-linear-gradient(
+    90deg,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  );
+
+  --bg-grid-vertical: repeating-linear-gradient(
+    0deg,
+    #d3d3d3 0px,
+    #d3d3d3 2px,
+    transparent 2px,
+    transparent 4px
+  );
+
+  --bg-fade-top-to-bottom: linear-gradient(
+    to bottom,
+    #e7e7e7 0%,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+
+  --page-background:
+    var(--bg-grid-horizontal), var(--bg-grid-vertical),
+    var(--bg-fade-top-to-bottom);
+}
